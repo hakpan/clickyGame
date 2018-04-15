@@ -1,8 +1,8 @@
 import React from "react";
 
-const row = props =>
+const Row = props =>
   <div className={`row${props.fluid ? "-fluid" : ""}`}>
     {props.children}
   </div>;
 
-export default row;
+export default Row;
